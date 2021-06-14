@@ -20,6 +20,18 @@ tablero = [
     [1,2,"x","x","x",7,4,"x","x"],
     ["x",4,9,2,"x",6,"x","x",7]
 ]
+"""
+tablero = [
+    [1,"x","x",4,8,9,"x","x",6],
+    [7,3,"x","x",5,"x","x",4,"x"],
+    [4,6,"x","x","x",1,2,9,5],
+    [3,8,7,1,2,"x",6,"x","x"],
+    [5,"x",1,7,"x",3,"x","x",8],
+    ["x",4,6,"x",9,5,7,1,"x"],
+    [9,1,4,6,"x","x","x",8,"x"],
+    ["x",2,"x","x",4,"x","x",3,7],
+    [8,"x",3,5,1,2,"x","x",4]
+]"""
 
 #funcion para poder imprimir el tablero
 def imprimir_tablero(tab):
@@ -127,12 +139,12 @@ def resolver(tab):
 
     return False
 
-#llamar las funcioens
-print("\n--------Tablero original-------")
+#llamar las funcioenes
+print("\n--------Tablero Original-------")
 imprimir_tablero(tablero)
 print("--------------------------------")
 resolver(tablero)
-print("\n---------Tablero final---------")
+print("\n---------Tablero Final---------")
 imprimir_tablero(tablero)
 print("--------------------------------")
 
